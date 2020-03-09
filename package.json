@@ -1,0 +1,22 @@
+{
+  "name": "manger-le-burger",
+  "version": "0.0.1",
+  "description": "Burger App",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robotmatt/manger-le-burger.git"
+  },
+  "author": "Matt Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robotmatt/manger-le-burger/issues"
+  },
+  "homepage": "https://github.com/robotmatt/manger-le-burger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
