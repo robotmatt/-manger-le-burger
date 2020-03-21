@@ -2,10 +2,21 @@
 
 <h2>Manger Le Burger! 🍔</h2>
 
+<h1>Available Burgers</h1>
 <ul>
     {{#each burgers}}
+    {{#unless this.eaten}}
     <span>{{this.burger_type}}</span>
     <button class="devour" burgerID="{{this.id}}">Devour</button>
+    {{/unless}}
+    {{/each}}
+</ul>
+<h1>Eaten Burgers</h1>
+<ul>
+    {{#each burgers}}
+    {{#if this.eaten}}
+    <span>{{this.burger_type}}</span>
+    {{/if}}
     {{/each}}
 </ul>
 
